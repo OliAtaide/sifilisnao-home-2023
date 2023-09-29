@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap");
+@import url("https://fonts.cdnfonts.com/css/carton-six");
+
+* {
+    font-family: "Nunito Sans", sans-serif !important;
+}
+
+svg {
+    margin-bottom: 40px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 30px;
+
+    i {
+        font-size: 40px;
+        color: hsla(309, 54%, 59%, 1);
+    }
+}
+
+form {
+    .input-group-text,
+    .form-control,
+    .btn,
+    .form-check-input {
+        border-radius: 0 !important;
+        border: 1px solid black;
+    }
+
+    .form-check {
+        display: flex;
+        gap: 0.5em;
+    }
+
+    .form-check-input {
+        margin-left: auto !important;
+    }
+
+    .input-group-text,
+    .btn {
+        background-color: black;
+    }
+
+    .input-group-text {
+        color: #cf5fbf;
+    }
+
+    .btn {
+        color: white;
+        line-height: 1;
+    }
+}
+
+tspan,
+.acompanhe {
+    font-family: "Carton Six", sans-serif !important;
+}
+
+.acompanhe {
+    font-size: 24px;
+}
+
+.navbar {
+    background-color: hsla(252, 59%, 58%, 1);
+
+    a {
+        color: white;
+        font-weight: 800;
+    }
+}
+
+.row-sessao {
+    .col {
+        padding: 80px 130px;
+    }
+
+    .col-a {
+        background-color: hsla(38, 95%, 51%, 1);
+    }
+
+    .col-b {
+        background-color: black;
+        color: hsla(38, 95%, 51%, 1);
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+
+.card {
+    border-radius: 0;
+}
+
+.multimidia-sessao {
+    .card {
+        border: 2px solid black;
+        width: 240px;
+        aspect-ratio: 3 / 4;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+
+        i {
+            font-size: 64px;
+            color: hsla(38, 95%, 51%, 1);
+        }
+
+        p {
+            font-weight: 900;
+            font-size: 24px;
+        }
+    }
+}
+
+.anteriores-sessao {
+    a {
+        text-decoration: none;
+    }
+
+    .col-sm-4{
+        
+        margin-bottom: 2em;
+    }
+
+    .card{
+        height: 100%;
+    }
+
+    .card-img-top{
+        border-radius: 0;
+    }
+
+    .card-subtitle {
+        color: hsla(309, 54%, 59%, 1);
+        font-weight: 700;
+    }
+
+    .card-title {
+        font-weight: 800;
+        color: hsla(252, 59%, 58%, 1);
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+}
+
+.footer {
+    background-color: #f0f0f0;
+    border-top: 2px solid black;
+}
