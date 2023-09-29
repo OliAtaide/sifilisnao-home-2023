@@ -71,7 +71,7 @@ tspan,
 }
 
 .row-sessao {
-    .col {
+    .col-md {
         padding: 80px 130px;
     }
 
@@ -166,10 +166,11 @@ tspan,
     }
 
     .row-sessao{
-        width: auto !important;
+        max-width: 100vw !important;
+        margin: 0;
     }
 
-    .col-b{
+    .row-sessao .col-md{
         padding: 40px 16px !important;
     }
 
