@@ -33,10 +33,6 @@ form {
         gap: 0.5em;
     }
 
-    .form-check-input {
-        margin-left: auto !important;
-    }
-
     .input-group-text,
     .btn {
         background-color: black;
@@ -118,8 +114,7 @@ tspan,
         text-decoration: none;
     }
 
-    .col-sm-4{
-        
+    .col-md-4{
         margin-bottom: 2em;
     }
 
@@ -174,7 +169,7 @@ tspan,
         padding: 40px 16px !important;
     }
 
-    .anteriores-sessao .card{
+    .anteriores-sessao .col-md-4{
         margin-bottom: 1em !important;
         height: auto !important;
     }
@@ -188,4 +183,9 @@ tspan,
         width: 100%;
         aspect-ratio: 3 / 2;
     }
+
+    .social-icons{
+        margin-bottom: 1em;
+    }
+
 }

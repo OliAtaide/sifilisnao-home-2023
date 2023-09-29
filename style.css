@@ -28,9 +28,6 @@ form .form-check {
   display: flex;
   gap: 0.5em;
 }
-form .form-check-input {
-  margin-left: auto !important;
-}
 form .input-group-text,
 form .btn {
   background-color: black;
@@ -98,7 +95,7 @@ tspan,
 .anteriores-sessao a {
   text-decoration: none;
 }
-.anteriores-sessao .col-sm-4 {
+.anteriores-sessao .col-md-4 {
   margin-bottom: 2em;
 }
 .anteriores-sessao .card {
@@ -142,7 +139,7 @@ tspan,
   .row-sessao .col-md {
     padding: 40px 16px !important;
   }
-  .anteriores-sessao .card {
+  .anteriores-sessao .col-md-4 {
     margin-bottom: 1em !important;
     height: auto !important;
   }
@@ -153,6 +150,9 @@ tspan,
   .multimidia-sessao .card {
     width: 100%;
     aspect-ratio: 3/2;
+  }
+  .social-icons {
+    margin-bottom: 1em;
   }
 }
 
