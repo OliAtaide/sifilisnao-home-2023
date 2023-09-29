@@ -151,12 +151,40 @@ tspan,
     border-top: 2px solid black;
 }
 
-@media screen and (max-width: 600px){
+.navbar-toggler-icon{
+    
+    filter: invert(100%);
+}
+
+@media screen and (max-width: 768px){
     p, .card-text{
         font-size: 20px !important;
     }
 
     svg{
         max-width: 100%;
+    }
+
+    .row-sessao{
+        width: auto !important;
+    }
+
+    .col-b{
+        padding: 40px 16px !important;
+    }
+
+    .anteriores-sessao .card{
+        margin-bottom: 1em !important;
+        height: auto !important;
+    }
+
+    form .d-flex{
+        flex-direction: column;
+        margin-top: 1em;
+    }
+
+    .multimidia-sessao .card{
+        width: 100%;
+        aspect-ratio: 3 / 2;
     }
 }
