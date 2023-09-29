@@ -150,3 +150,13 @@ tspan,
     background-color: #f0f0f0;
     border-top: 2px solid black;
 }
+
+@media screen and (max-width: 600px){
+    p, .card-text{
+        font-size: 20px !important;
+    }
+
+    svg{
+        max-width: 100%;
+    }
+}
